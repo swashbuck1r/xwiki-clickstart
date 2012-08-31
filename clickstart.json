@@ -1,0 +1,24 @@
+{
+    "id": "maven_template",
+    "name": "XWiki 4.2",
+    "source": "git://github.com/swashbuck1r/xwiki-clickstart.git",
+    "description" : "This is a customizable version of XWiki.  Note that this requires a large application container to run properly.",
+    "doc-url" : "https://github.com/swashbuck1r/xwiki-clickstart/blob/master/README.md",
+    "icon" : "https://raw.github.com/swashbuck1r/xwiki-clickstart/master/icon.png",
+    "runtime": {
+        "type": "tomcat"                
+    },
+    "databases": [
+        {
+            "type": "mysql",
+            "alias": "xwiki"
+        }
+    ],
+    "build-with-jenkins": {
+        "template": {
+            "type": "maven",
+            "options": {
+            }
+        }
+    }
+}
