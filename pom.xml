@@ -29,7 +29,7 @@
  </pluginRepositories>
 
   <build>
-    <finalName>maven_template</finalName>
+    <finalName>xwiki</finalName>
     <plugins>
      <plugin>
        <groupId>com.cloudbees</groupId>
